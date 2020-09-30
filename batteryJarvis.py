@@ -1,3 +1,4 @@
+print("LESS POWER BATTERY ALARM")
 import os,time
 import subprocess
 import getpass
@@ -70,5 +71,5 @@ elif res==100 and charge_status_content!="Discharging":
     speech ="hey "+user+" Please dont overcharge me."
     call(["espeak",speech])
 
-
+print("Thanks For Coming Here")
 
